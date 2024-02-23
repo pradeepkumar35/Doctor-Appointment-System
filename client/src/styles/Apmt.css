@@ -1,0 +1,49 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+/* Style for the Appointments page header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the Appointments page table */
+  .ant-table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Style for table columns */
+  .ant-table-thead th {
+    background-color: #1890ff; /* Header background color */
+    color: #fff; /* Header text color */
+    font-weight: bold;
+  }
+  
+  /* Style for table rows */
+  .ant-table-tbody tr {
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f0f5ff; /* Row background color on hover */
+    }
+  }
+  
+  /* Style for date & time column */
+  .ant-table-tbody span {
+    display: block;
+    color: #333; /* Adjust text color */
+  }
+  
+  /* Style for status column */
+  .ant-table-tbody .ant-tag {
+    margin: 0; /* Remove default margin */
+    padding: 8px 12px; /* Adjust padding */
+    border-radius: 4px;
+  }
+  
+  /* Style for the "ID" column (optional) */
+  .ant-table-tbody ._id {
+    font-family: monospace; /* Use a monospace font for IDs */
+  }
+  

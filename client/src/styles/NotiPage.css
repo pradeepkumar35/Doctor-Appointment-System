@@ -1,0 +1,55 @@
+/* NotificationPage.css */
+
+.notification-page {
+    padding: 3rem;
+  }
+  
+  .notification-header {
+    text-align: center;
+  }
+  
+  .notification-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+  }
+  
+  .notification-actions h4 {
+    cursor: pointer;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  
+/* NotificationPage.css */
+
+/* ... (previous styles remain unchanged) */
+
+.notification-actions .action-button {
+    cursor: pointer;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .notification-actions .mark-read-action {
+    background-color: 01796F; /* Ant Design primary color */
+    color: #fff;
+  }
+  
+  .notification-actions .delete-action {
+    background-color: #01796F; /* Ant Design error color */
+    color: #fff;
+  }
+  
+  /* Add more styles as needed */
+  
+  
+  .notification-card {
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add more styles as needed */
+  

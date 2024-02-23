@@ -1,0 +1,42 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+/* Style for the Users page header */
+.text-center {
+    text-align: center;
+  }
+  
+  /* Style for the Users page container */
+  .users-container {
+    padding: 20px;
+  }
+  
+  /* Style for the Users page table */
+  .ant-table {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Style for the "Block" button */
+  .btn-danger {
+    background-color: #ff4d4f; /* Adjust the color as needed */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #d4380d; /* Adjust the color on hover */
+    }
+  }
+  
+  /* Optional: Style for the Spin component */
+  .ant-spin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Adjust the height as needed */
+  }
+  

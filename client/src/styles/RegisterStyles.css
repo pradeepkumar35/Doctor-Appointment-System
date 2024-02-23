@@ -1,0 +1,46 @@
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #15601883; /* Choose your desired background color */
+}
+
+.register-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Adjust the background color of the form */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #01796F;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1b5788;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
